@@ -1,0 +1,47 @@
+
+
+body {
+    font-family: Helvetica;
+  }
+
+h3 {
+  text-align: center;
+}
+
+.main {
+  padding: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container{
+  width: 600px;
+  padding: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+ul {
+ list-style-type: none; 
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+#button-container {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+#button-container button {
+  margin: auto;
+  width: 120px;
+}
+
+#button-addon1:hover {
+  background-color: #0d6efd;
+}

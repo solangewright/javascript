@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body> 
+<div class="main">
+<h2>Grocery List</h2>
+    <div class="container">
+        <div>
+            <form>
+            <!--Bootstrap Button-->
+              <div class="input-group mb-3">
+                <button class="btn btn-outline-secondary" type="button" id="button-addon1" onClick ="update(input.value, unorderedList)">&plus; Add</button>
+                <input id ="text" type="text" class="form-control" placeholder="Enter grocery item" aria-label="Example text with button addon" aria-describedby="button-addon1">
+              </div>
+            </form>
+        </div>
+        <div id='para' class="fs-5">
+            <!--list goes here-->
+        </div>  
+    </div>
+</div>
+
+<script src="/grocery-list/code.js"></script>
+</body>
+</html>
