@@ -1,0 +1,20 @@
+.main {
+    margin: auto;
+    width: 750px;
+    padding: 60px 25px;
+}
+
+.main h1 {
+    margin-bottom: 35px;
+}
+
+.col {
+    border: 2px solid green;
+    text-align: center;
+}
+
+.profile-main {
+    width: 900px;
+    margin: auto;
+}
+
